@@ -1,0 +1,170 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+
+.header {
+  background-image: url("images/background.jpg");
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu {
+  float: right;
+}
+
+.menu img {
+  height: 50px;
+  margin: 50px 50px 0 0;
+}
+
+h1 {
+  display: inline-block;
+  color: rgb(250, 230, 100);
+  font-size: 56px;
+  margin: 200px 300px auto 100px;
+}
+
+.header p {
+  margin: 30px 500px 30px 100px;
+}
+
+.download a, .contact input[type="submit"] {
+  border: 2px solid rgb(250, 230, 100);
+  padding: 10px 60px 10px 60px;
+  border-radius: 20px;
+  color: rgb(250, 230, 100);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.download {
+  margin-left: 100px;
+}
+
+.partners h2 {
+  text-align: center;
+  color: rgb(250, 230, 100);
+}
+
+.partners {
+  margin: 60px auto 60px auto;
+}
+
+.partners img {
+  width: 25%;
+}
+
+.story h2, .contact h2, .faqs h2 {
+  color: rgb(250, 230, 100);
+  margin-left: 100px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.story img {
+  height: 500px;
+}
+
+.story01 img {
+  float: right;
+  margin: -120px 200px auto 200px;
+}
+
+.story02 img {
+  float: left;
+  margin: -120px 200px auto 200px;
+}
+
+.story01 h3, .story01 p, .story01 hr {
+  margin-left: 100px;
+}
+
+.story02 h3, .story02 p, .story02 hr {
+  margin-right: 100px;
+}
+.story01 { 
+  margin-bottom: 150px;
+}
+
+span {
+  border-bottom: 2px solid;
+}
+
+.story{
+    background-color: rgb(234, 233, 225);
+    padding: 100px 0 100px 0;  
+}
+
+.contact input[type="text"], 
+.contact input[type="email"], 
+.contact textarea {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 300px;
+  display: block;
+}
+
+.contact textarea {
+  height: 80px;
+  background-color: rgb(234, 233, 225);
+}
+
+.contact input[type="submit"]{
+  border-color: gray;
+  color: gray;
+  float: right;
+}
+
+.innercontact {
+  width: 60%;
+  margin: auto;
+}
+
+.contactinfo {
+  float: right;
+}
+
+.contact form {
+  display: inline-block;
+}
+
+.faqs01, .faqs02 {
+  display: inline-block;
+}
+
+.faqs01 {
+  margin-left: 100px;
+}
+
+.faqs02 {
+  float: right;
+  margin-right: 100px;
+}
+
+.faqs {
+  background-color: rgb(234, 233, 225);
+  padding: 100px 0 100px 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+#totop {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(250, 230, 100);
+  float: right;
+  margin-top: -150px;
+  margin-right: 100px;
+  color:white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px;
+}
+
